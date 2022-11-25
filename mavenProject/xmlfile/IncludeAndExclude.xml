@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite">
+	<test name="Method Test Cases">
+		<classes>
+			<class name="testNGadvance.IncludeAndExclude">
+				<methods>
+					<include name="testcaseone" />
+					<include name="testcasethree" />
+					<exclude name="testcasetwo" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

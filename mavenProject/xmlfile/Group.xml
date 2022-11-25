@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Suite">
+  <test name="testing">
+  	<groups>
+      <run>
+        <include name="Smoke test"/>
+        <include name="Regression test"/>
+        <exclude name="Sanity test"/>
+      </run>
+    </groups>
+    <classes>
+       <class name="testNGadvance.GroupExamples" />
+    </classes>
+  </test>
+</suite>
